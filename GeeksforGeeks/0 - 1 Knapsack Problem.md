@@ -86,7 +86,6 @@ def countOccurrences(arr, x):
         return 0
     
     return (lOcc + 1) - fOcc
-
 ```
 
 

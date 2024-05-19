@@ -23,6 +23,7 @@ def generateBinaryNumbers(n):
         ans.append(decimal_to_binary(i))
     return ans
 ```
+
 <h2>Time Complexity</h2>
 The time complexity of this solution is On * log n), where n is the number of elements from 1 to N.<br>
 This is because converting a decimal number to binary takes O(log n) time, and we are doing this for each number from 1 to N.<br>

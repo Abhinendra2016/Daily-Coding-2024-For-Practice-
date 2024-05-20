@@ -1,6 +1,4 @@
 # Path In A Tree
-
-## Problem Statement
 You are given a binary tree with ‘N’ number of nodes and a node ‘X’. Your task is to print the path from the root node to the given node ‘X’.
 
 A binary tree is a hierarchical data structure in which each node has at most two children.

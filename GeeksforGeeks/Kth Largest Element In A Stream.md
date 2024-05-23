@@ -17,6 +17,7 @@ You will be given 'q' queries:
 - `val`: For this query, insert the integer into your current pool of integers and return the 'kth' largest integer from the existing pool of integers.
 
 ### Note
+
 1. The maximum number of integers that will be given will always be under memory limits.
 2. You will also be given an initial pool of integers whose size equals k.
 3. The maximum number of queries will be less than 10^5.
@@ -34,18 +35,17 @@ You will be given 'q' queries:
 2
 3
 **Explanation:**
-The initial pool is - 2, 1, 3. 
+The initial pool is - 2, 1, 3.
 
 When 3 is added, the pool is now 3, 2, 1, 3. The 3rd largest element is 2 (when we sort the pool, it becomes 3, 3, 2, 1).
 
 When 5 is added, the pool is now 5, 3, 2, 1, 3. The 3rd largest element is 3 (when we sort the pool, it becomes 5, 3, 3, 2, 1).
 
-
 ## Constraints
 
 - 1 <= Q <= 10^4
 - 1 <= K <= 10^5
-- 1 <= DATA <= 10^9 
+- 1 <= DATA <= 10^9
 
 ### Time Limit: 1 sec
 

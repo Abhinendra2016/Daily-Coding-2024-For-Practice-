@@ -30,14 +30,11 @@ class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         if not A:
             return []
-        
         # Initialize with the first word's character counts
         commonCount = Counter(A[0])
-        
         # Update commonCount with the minimum frequency counts
         for a in A[1:]:
             commonCount &= Counter(a)
-        
         # Convert the counter to the result list
         ans = []
         for char, count in commonCount.items():

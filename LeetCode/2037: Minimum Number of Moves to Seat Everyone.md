@@ -76,7 +76,6 @@ class Solution:
         # Step 7: Return the total number of moves required
         return total_moves
 ```
-
 <h2>Time Complexity</h2>
 The time complexity of this solution is O(n log n). This is because the most time-consuming operations are the sorting of <br>the seats and students arrays, each of which takes O(n log n) time. The subsequent iteration over the arrays takes O(n) time, which is dominated by the sorting step.<br>
 

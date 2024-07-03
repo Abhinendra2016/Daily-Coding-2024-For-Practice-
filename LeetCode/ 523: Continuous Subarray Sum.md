@@ -1,6 +1,5 @@
 # Problem 523: Continuous Subarray Sum
 
-## Problem Description
 
 Given an integer array `nums` and an integer `k`, return `true` if `nums` has a good subarray or `false` otherwise.
 
@@ -54,3 +53,9 @@ class Solution:
 
         return False
 ```
+<h2>Time Complexity</h2>
+The time complexity of this solution is O(n + m), where n is the length of nums1 and m is the length of nums2. This is because we iterate through both arrays once.<br>
+
+<h2>Space Complexity</h2>
+
+The space complexity is O(min(n, m)) because we store the counts of the smaller array's elements.<br>

@@ -5,23 +5,27 @@ You are given an array 'ARR' of integers of length N. Your task is to find the f
 For example, the input `[3, 4, -1, 1]` should give output 2 because it is the smallest positive number that is missing in the input array.
 
 ## Sample Input 1 :
+
 1
 5
 3 2 -6 1 0
 
 ## Sample Output 1:
+
 4
 
-
 ## Explanation for Input 1:
+
 The first positive number is 1 and it is present in the array similarly 2 and 3 are also present in the array. 4 is missing from the array. Thus, the minimum positive integer that is missing is 4.
 
 ## Sample Input 2 :
+
 1
 5
 0 1 2 3 4
 
 ## Sample Output 2:
+
 5
 
 ## Solution
@@ -51,6 +55,7 @@ for j in range(t):
 
     print(ans)
 ```
+
 <h2>Time Complexity</h2>
 The time complexity of this solution is O(n) where n is the length of the array. This is because we are using a set to store the elements of the array and then checking for the first missing positive integer in a single pass through the array.<br>
 <h2>Space Complexity</h2>

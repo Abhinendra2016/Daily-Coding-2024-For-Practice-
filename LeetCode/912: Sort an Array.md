@@ -72,6 +72,7 @@ class Solution:
         mergeSort(nums, 0, len(nums) - 1)
         return nums
 ```
+
 <h2>Time Complexity</h2>
 
 The time complexity of the solution is O(nlog(n)) due to the merge sort algorithm used.<br>

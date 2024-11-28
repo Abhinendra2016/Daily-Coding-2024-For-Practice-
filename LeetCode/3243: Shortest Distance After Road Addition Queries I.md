@@ -1,7 +1,5 @@
 # Problem 3243: Shortest Distance After Road Addition Queries I
 
-## Problem Description
-
 You are given an integer `n` and a 2D integer array `queries`.
 
 - There are `n` cities numbered from `0` to `n - 1`.
